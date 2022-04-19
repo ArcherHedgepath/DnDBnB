@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700.800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #1C2321;
+    
+}
+
+/* 
+
+          --- Color Palette ---
+    #e8443c 
+    #4a2932
+    #264c5e
+    #a34c50
+    #cec2ae
+*/
+body{
+    color: #e8443c;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.backgroundSolid{
+    background:#e8443c;
+}
+
+.background{
+    background: linear-gradient(#e8443c, 350px, #cec2ae);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footerColor{
+    background: #cec2ae;
+}
+
+.cardColor{
+    background-color: #a34c50;
+    color: #264c5e;
+    border: 2px #4a2932 solid;
+}
+
+.cardImg{
+    height: 230px;
+}
+
+.btnColor{
+    background-color:#264c5e;
+    color: #e8443c; 
+}
+
+.navColor{
+    background-color: #a34c50;
+    border-bottom: 4px #4a2932 solid;
+}
+
+.img{
+    height: 240px;
+}
